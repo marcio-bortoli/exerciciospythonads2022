@@ -8,8 +8,8 @@ print("Olá, você terá 10 tentativas de acertas os números de 1 a 10 sorteado
 acertos = 0
 tentativas = 1
 while (tentativas <= 10):
-    numeroSorteado = random.randrange(1,11)
-    numeroInformado = int(input("Informe um numero de 1 a 10: "))
+    numeroSorteado = random.randrange(1,11) ##o random sorteia numeros de 1 a 10
+    numeroInformado = int(input("Informe um numero de 1 a 10: ")) ##o usuário informa um numero entre a 1 a 10
     if (numeroInformado == numeroSorteado):
         acertos = acertos + 1
     tentativas = tentativas + 1
